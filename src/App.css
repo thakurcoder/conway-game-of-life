@@ -1,0 +1,51 @@
+.alive{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(235, 228, 220);
+  border: 2px solid black;
+}
+.dead{
+  width: 20px;
+  height: 20px;
+  background: #2c2929;
+  border: 2px solid black;
+}
+.field{
+  width:fit-content;
+  grid-template-columns:repeat(30, 20px);
+  display: grid;
+  margin: 0 auto;
+  
+  
+}
+.button{
+  width: 7rem;
+  height:3rem ;
+  font-size: large ;
+  font-weight: 500;
+  align-items: center;
+  margin: 2rem;
+  margin-left: 15rem;
+
+
+}
+.random{
+  width: 7rem;
+  height:3rem ;
+  font-size: large ;
+  font-weight: 500;
+  align-items: center;
+  margin: 2rem;
+  margin-left: 2rem;
+
+}
+.speed{
+  width: 7rem;
+  height:3rem ;
+  font-size: large ;
+  font-weight: 500;
+  align-items: center;
+  margin: 2rem;
+  margin-left: 23rem;
+
+}
